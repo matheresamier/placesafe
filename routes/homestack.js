@@ -4,14 +4,16 @@ import SplashScreen from '../screens/SplashScreen';
 import SignUpForm from '../screens/SignUpForm';
 
 const screens = {
-    PlaceSafe: {
-        screen:SplashScreen
-    },
-
     SignUp: {
         screen:SignUpForm
 
     },
+
+    PlaceSafe: {
+        screen:SplashScreen
+    }
+
+   
 }
 
 const HomeStack = createStackNavigator(screens);
